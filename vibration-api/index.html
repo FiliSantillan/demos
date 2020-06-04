@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Vibration API</title>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="app.css" />
+    </head>
+    <body>
+        <section class="demo">
+            <header class="details">
+                <h1 class="title">Vibration API</h1>
+                <a href="https://filisantillan.com/bits/vibration-api/"
+                    >Ver artículo</a
+                >
+                <p class="warning" id="warning">
+                    Este demo es solo para dispositivos móviles
+                </p>
+            </header>
+
+            <div class="buttons">
+                <button class="button" onclick="vibrate(5000)">Vibrar</button>
+                <button
+                    class="button"
+                    onclick="vibrate(300, 100, 300, 100, 300, 100, 300)"
+                >
+                    Vibrar mútiples veces
+                </button>
+                <button class="button" onclick="stopVibrating()">
+                    Parar vibración
+                </button>
+            </div>
+
+            <footer class="contact">
+                <a href="https://filisantillan.com">filisantillan.com</a>
+                <a href="https://www.instagram.com/fili.santillan/"
+                    >Instagram</a
+                >
+                <a href="https://twitter.com/FiliSantillan">Twitter</a>
+                <a href="https://www.facebook.com/filisantillan96">Facebook</a>
+                <a href="https://github.com/FiliSantillan">GitHub</a>
+            </footer>
+        </section>
+
+        <script src="app.js"></script>
+    </body>
+</html>
